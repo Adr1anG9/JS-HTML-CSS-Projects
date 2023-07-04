@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    min-width: 300px;
+}
+
+/*
+Style our app according to the provided design!
+green color -> #5f9341
+*/
+
+
+input {
+    width: 80%;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+button {
+    color:azure;
+    border: 1px #007C21;
+    border-radius: 2px;
+    padding:9px;
+    margin-top: 2px;
+    font-size: 10px;
+    font-weight:lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#007C21; ;
+    text-align: center;
+}
+
+#delete-btn {
+    background-color:rgb(250, 44, 86);
+    border: 1px rgb(250, 44, 86);
+
+}
+
+/* 29. Styling the ul and li   */
+ul {
+    color:#007C21;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    color:#007C21;
+    list-style-type: none;
+    padding: 1px;
+    margin: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+li a {
+    color:#007C21;
+    list-style-type: none;
+    margin-top: 1px;
+}
+
+#input-btn:hover {
+    background-color: white ;
+    color: #007C21;
+    border: 1px solid #007C21;
+    font-weight:bold;
+}
+#tab-btn:hover {
+    background-color: white ;
+    color: #007C21;
+    border: 1px solid #007C21;
+    font-weight:bold;
+}
+
+#delete-btn:hover {
+    background-color:rgb(255, 0, 51);
+    border: 1px solid rgb(250, 44, 86);
+    font-weight:bold;
+
+}
+

@@ -1,0 +1,27 @@
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+}
+
+div {
+    width: 80%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+
+#apple-shelf {
+    background-color: crimson;
+}
+
+#orange-shelf {
+    background-color: coral;
+
+}

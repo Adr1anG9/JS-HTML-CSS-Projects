@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Sportul este sanatate" />
+    <title>Sport is Health | Photo Gallery</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbarmain"></nav>
+            <div id="branding">
+              <a href="index.html">
+                <img id="logo" src="img/logo/logo3.png" alt="logo" />
+              </a>
+            </div>
+          <ul class="navlist">
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="produse.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="current">
+              <a href="inregistrare.html">Registration</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <center>
+      <h1 class="titlul">Registration Form</h1>
+    </center>
+    <hr class="hr_titlul" />
+
+    <!-- Formular  -->
+    <form>
+      <div class="container_form">
+        <label><b> First Name: </b></label>
+        <input
+          type="text"
+          name="firstname"
+          placeholder="Name"
+          size="15"
+          required
+        />
+        <label><b> Last Name: </b></label>
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Last Name"
+          size="15"
+          required
+        />
+        <label><b> Username: </b></label>
+        <input
+          type="text"
+          name="nickname"
+          placeholder="Username"
+          size="15"
+          required
+        />
+        <label for="email"><b>Email: </b></label>
+        <input
+          type="text"
+          placeholder="Introduce the email"
+          name="email"
+          required
+        />
+        <label for="psw"><b>Password: </b></label>
+        <input
+          type="password"
+          placeholder="Introduce the password"
+          name="psw"
+          required
+        />
+
+        <label for="psw-repeat"><b>Re-type password </b></label>
+        <input
+          type="password"
+          placeholder="Re-introduce password"
+          name="psw-repeat"
+          required
+        />
+        <label><b> Age: </b></label>
+        <input
+          type="text"
+          name="age"
+          placeholder="Introduce Age"
+          size="15"
+          required
+        />
+        <div class="buttons">
+          <button id="sterge" type="submit"><strong> Delete </strong></button>
+          <button id="salveaza" type="submit">
+            <strong> Save</strong>
+          </button>
+        </div>
+        <br />
+        <br />
+        <div class="grup_varsta">
+          <label><b> Choose the age group</b></label>
+          <select>
+            <option value="" id="selecteaza">Select</option>
+            <option value="Copil">Child (under 18)</option>
+            <option value="Matur">Adult (over 18 )</option>
+          </select>
+        </div>
+        <div>
+          <label><b> Gender: </b></label><br />
+          <input type="radio" value="Male" name="gender" checked /> Male
+          <input type="radio" value="Female" name="gender" /> Female
+        </div>
+        <div id="myRange">
+          <label
+            ><b>
+              How many hours a day you spend in front of the TV?
+            </b></label
+          >
+          <input type="range" min="1" max="100" value="50" class="slider" />
+        </div>
+        <label><b> Telephone: </b></label>
+        <input
+          type="text"
+          name="country code"
+          placeholder="Country Code"
+          value="+44"
+          size="2"
+        />
+        <div>
+          <label><b> Select city: </b></label>
+          <select>
+            <option value="" id="selecteaza">Select</option>
+            <option value="London">London</option>
+            <option value="Manchester">Manchester</option>
+            <option value="Liverpool">Liverpool</option>
+            <option value="Edinburgh">Edinburgh</option>
+            <option value="Belfast">Belfast</option>
+            <option value="York">York</option>
+          </select>
+        </div>
+        <label
+          ><b>
+            Write a commenatary about our services:
+          </b></label
+        >
+        <textarea
+          style="height: 50px"
+          cols="80"
+          rows="5"
+          value=""
+          required
+        ></textarea>
+
+        <button type="submit" class="registerbtn">Registration</button>
+      </div>
+    </form>
+    <br />
+    <br />
+    <footer id="footer">
+      <p>Website created by Adrian, Copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>
